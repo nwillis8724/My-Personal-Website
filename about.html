@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pathways the MMO</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body id="about">
+        <div class="topnav">
+            <a href="./pathways.html">Home</a>
+            <a href="./news.html">News</a>
+            <a href="./skills.html">Skills</a>
+            <a href="./pvp.html">PvP</a>
+            <a href="./enchants.html">Enchants</a>
+            <a href="./weapons.html">Weapons</a>
+            <a href="./characters.html">Characters</a>
+            <a class="active" href="./about.html">About</a>
+        </div>
+        
+        <h1 class="devTeam" id="theyAre">They call themselves :</h1>
+        <h1 class="devTeam" id="teamName">The Dev Team</h1>
+
+        <button data-modal-target="#modal" class="profile"> <img src="./Images/Noah.jpg" name='Noah' id="noahPic" class="profile"/></button>
+
+        <img src="./Images/Lee.png" alt="Lee" id="leePic" class="profile"/>
+
+        <img src="./Images/Ignas.jpg" alt="Ignas" id="ignasPic" class="profile"/>
+
+        <img src="./Images/Anthony.jpg" alt="Anthony" id="anthonyPic" class="profile"/>
+
+    <div>       
+        <div id="noahPopup" class="infoPopups">
+            <div class="popupHeader">
+            <h2 class="popupTitle">Noah 'drDubz' Willis</h2>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+            <p class="popupBody">The man with a dream, Noah has always wanted to create a video game and thankfully he has friends willing and capable to help him out</p>
+        </div>
+        
+        <div hidden id="leePopup" class="infoPopups">
+            <h2>Lee 'MR N3MO' Kopacz</h2>
+            <p>As Noah's Co-Worker Lee has to put up with most of Noah's 'million-dollar' ideas, this video game being one of them.</p>
+        </div>
+
+        <div hidden id="ignasPopup" class="infoPopups">
+            <h2>Ignas 'Anansi' Butatutas</h2>
+            <p>A long time friend and enabler of Noah, well versed in programming he was the first of the devTeam called upon for this project.</p>
+        </div>
+
+        <div hidden id="anthonyPopup" class="infoPopups">
+            <h2>Anthony 'Tony' Mancera</h2>
+            <p>While he may have 0 skills with anything related to computing, the man sure can make a bopper</p>
+        </div>
+    </div>
+    <div id="overlay"></div>
+</body>
